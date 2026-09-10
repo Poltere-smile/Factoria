@@ -1,7 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
 
+
+
 public class mainGame extends JFrame{
+
+    public int[][] map= new map().BaseTileMap;
 
 
     mainGame(){
